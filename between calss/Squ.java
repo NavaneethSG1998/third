@@ -1,0 +1,19 @@
+class sample
+{
+	double squ()
+	{
+        int a=6;
+		double area=a*a;
+        return area;
+	}
+}
+class mainclass
+{
+	public static void main(String[] args) 
+	{
+		sample s =new sample();
+		 double x=s.squ();
+		 System.out.println(x);
+
+	}
+}

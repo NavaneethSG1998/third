@@ -1,0 +1,21 @@
+class sample
+{
+	double tri()
+	{
+        int b=6;
+		int h=6; 
+		int ha=0.5;
+		int area=ha*b*h;
+        return area;
+	}
+}
+class mainclass
+{
+	public static void main(String[] args) 
+	{
+		sample s =new sample();
+		 double x=s.tri();
+		 System.out.println(x);
+
+	}
+}

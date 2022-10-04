@@ -1,0 +1,49 @@
+class Frnd
+{
+	void hot()
+	{
+      System.out.println(" daridra ");
+	}
+}
+class rohith extends Frnd
+{
+	void hot()
+    {
+		System.out.println("gggggggggg");
+	}
+}
+class megha extends Frnd
+{
+	void hot()
+	{
+		System.out.println("dddddddddddbd");
+	}
+}
+class manu extends Frnd
+{
+	void hot()
+	{
+		System.out.println("ddvvvvvvvvvvde");
+	}
+}
+class oledu
+{
+	static void heroo(Frnd a1)
+	{
+          a1.hot();
+    }
+}
+class mainclass
+{
+public static void main(String[] args) 
+	{
+		rohith h=new rohith();
+		megha n=new megha();
+		manu o=new manu();
+
+		oledu.heroo(h);
+		oledu.heroo(n);
+		oledu.heroo(o);
+
+	}
+}

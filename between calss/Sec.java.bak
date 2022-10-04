@@ -1,0 +1,21 @@
+class sample
+{
+	double sec()
+	{
+        int b=6;
+		int h=6;
+		int ti=60;
+		double area=0.5*r*r*ti;
+        return area;
+	}
+}
+class mainclass
+{
+	public static void main(String[] args) 
+	{
+		sample s =new sample();
+		 double x=s.sec();
+		 System.out.println(x);
+
+	}
+}

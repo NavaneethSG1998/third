@@ -1,0 +1,49 @@
+class Flower
+{
+	void hot()
+	{
+      System.out.println("galiyali galiyali");
+	}
+}
+class rose extends Flower
+{
+	void hot()
+    {
+		System.out.println("aaaaaaaaaaaaaaa");
+	}
+}
+class lilly extends Flower
+{
+	void hot()
+	{
+		System.out.println("ssssssssss");
+	}
+}
+class jasmin extends Flower
+{
+	void hot()
+	{
+		System.out.println("eeeeeeeeeeeee");
+	}
+}
+class oledu
+{
+	static void heroo(Flower a1)
+	{
+          a1.hot();
+    }
+}
+class mainclass
+{
+public static void main(String[] args) 
+	{
+		rose h=new rose();
+		lilly n=new lilly();
+		jasmin o=new jasmin();
+
+		oledu.heroo(h);
+		oledu.heroo(n);
+		oledu.heroo(o);
+
+	}
+}

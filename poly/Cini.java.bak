@@ -1,0 +1,49 @@
+class Movie
+{
+	void hot()
+	{
+      System.out.println(" 333333 ");
+	}
+}
+class mungaru extends Movie
+{
+	void hot()
+    {
+		System.out.println("77777");
+	}
+}
+class kalasi extends Movie
+{
+	void hot()
+	{
+		System.out.println("555555");
+	}
+}
+class chittara extends Movie
+{
+	void hot()
+	{
+		System.out.println("7783535");
+	}
+}
+class oledu
+{
+	static void heroo(Frnd a1)
+	{
+          a1.hot();
+    }
+}
+class mainclass
+{
+public static void main(String[] args) 
+	{
+		rohith h=new rohith();
+		megha n=new megha();
+		manu o=new manu();
+
+		oledu.heroo(h);
+		oledu.heroo(n);
+		oledu.heroo(o);
+
+	}
+}
